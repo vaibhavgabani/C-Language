@@ -1,10 +1,10 @@
-output is :-
-Enter Number : 5
-    *
-   **
-  ***
- ****
-*****
+// output is :-
+// Enter Number : 5
+//     *
+//    **
+//   ***
+//  ****
+// *****
 #include<stdio.h>
 int main(){
     int n = 5;
