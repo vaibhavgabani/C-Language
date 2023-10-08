@@ -1,6 +1,2 @@
-Enter Number : 5
-// 543212345
-//  4321234 
-//   32123  
-//    212   
-//     1
+printf("Enter Number  :");
+    scanf("%d",&n);

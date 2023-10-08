@@ -1,3 +1,8 @@
+// 12345
+// 1234
+// 123
+// 12
+// 1
 #include<stdio.h>
 int main(){
     int n = 5;
