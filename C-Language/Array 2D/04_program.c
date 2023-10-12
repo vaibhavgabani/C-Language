@@ -8,7 +8,7 @@
 //  min is : 0
 #include<stdio.h>
 int main(){
-    int n,min, max;
+    int n,min,max = 0;
     printf("Enter Array Sixe :");
     scanf("%d",&n); 
     int arr[n];
@@ -21,7 +21,7 @@ int main(){
         if(min>arr[i]){
             min = arr[i];
         }
-    }
-    printf("\n max is  : %d \n min is : %d" , max,min);
+    }   
+    printf("\n max is  : %d \n min is : %d" ,max,min);
     return 0;
 }
