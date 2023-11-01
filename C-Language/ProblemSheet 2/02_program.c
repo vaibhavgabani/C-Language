@@ -1,7 +1,12 @@
 #include<stdio.h>
 int main(){
-    for(int i = 0 ; i <= 10 ; i++){
-    printf("%d\n",i);
+    int n;
+    printf("Enter number :");
+    scanf("%d",&n);
+    int f=1;
+    for(int i = 1 ; i <= n ; i++){
+    f = f*i;
     }
+    printf(" %d",f);
     return 0;
 }
