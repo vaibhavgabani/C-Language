@@ -8,6 +8,9 @@
 // Enter Value [3][1] : 3
 // Enter Value [3][2] : 2
 // Enter Value [3][3] : 1
+// 3 2 1
+// 3 2 1
+// 3 2 1
 // Matrix shorting row wise : 
 // 1 2 3
 // 1 2 3

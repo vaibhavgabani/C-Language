@@ -41,7 +41,7 @@ int main(){
             }
         }
         printf("c %d is :%d \n",j+1,small);
-        small = 999;
+        small = 999999999;
     }
     return 0;
 }
