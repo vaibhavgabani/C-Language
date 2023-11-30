@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main(){
+    char str1[10],str2[10];
+    int len1 = 0, len2 = 0 , flag = 0; 
+    printf("Enter data for 1 sting : ");
+    scanf(" %[^\n]s",str1);
+    printf("Enter data for 2 sting : ");
+    scanf(" %[^\n]s",str2);
+
+    for(int i = 0 ; str1[i]!='\0' ; i++){
+        len1++;
+    }
+    for(int i = 0 ; str2[i]!='\0' ; i++){
+        len2++;
+    }
+
+    for(int i = 0 ; str1[i] !='\0'&& str2[i] !='\0'; i++){
+       if(str1[i] == str2[i]){
+        flag++;
+       }
+    }
+    if(flag == 1){
+        printf("both are same.");
+    } else {
+        printf("both are not same :");
+    }
+    return 0;
+}
