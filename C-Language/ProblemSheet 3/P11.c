@@ -1,3 +1,8 @@
+// 11) Write a C Program to reverse the string.
+// Enter size of first array :4
+// Enter value in string : ABCD
+// reverce string is : DCBA
+
 #include<stdio.h>
 int main(){
     int num1 , temp = 0,len = 0;

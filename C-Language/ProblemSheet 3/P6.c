@@ -1,3 +1,12 @@
+// 6) Write a C Program to concatenate N characters from target string without using in built
+// // string functions.
+// Enter zise of 1 string :3
+// Enter zise of 2 string :3
+// Enter 1 string value : ABC
+// Enter 2 string value : DEF
+// Enter number which you want to transfer from 1 string : 2
+// Enter number which you want to transfer from 2 string : 2
+// Concatenate is : ABDE
 #include<stdio.h>
 int main(){
     int num1 , num2 , num3 , t1 , t2 , len1 = 0 , len2 = 0;

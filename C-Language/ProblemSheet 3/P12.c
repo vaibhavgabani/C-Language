@@ -1,3 +1,12 @@
+// 12) Write a C Program to check whether a given string is palindrome or not.
+// 1)
+// Enter value of string : 3
+// Enter value in string in size : mom
+// palindrome word.
+// 2)
+// Enter value of string : 3
+// Enter value in string in size : abc
+// not palindrome word.
 #include<stdio.h>
 int main(){
     int num1 , len = 0 ,temp = 0 , flag = 1;

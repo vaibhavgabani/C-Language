@@ -1,3 +1,10 @@
+// 10) Write a C program to copy N characters of one string into another string without 
+// // using inbuilt functions.
+// Enter size of first array :5
+// Enter value in string : ABCDE
+// Enter number where you have to stop copy : 3
+// Copyed string is : ABC 
+
 #include<stdio.h>
 int main(){
     int num , num1 , len1 = 0;

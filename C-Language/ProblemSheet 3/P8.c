@@ -1,3 +1,12 @@
+// 8) Write a C Program to compare n characters of two strings without using in built string 
+// // functions.
+// Enter size of first array :4
+// Enter size of Second array :4
+// Enter value in 1 string : qwer
+// Enter value in 2 string : qwre
+// Enter total number which you won compare : 4
+// total 2 characters are same.
+// total 2 characters are notsame
 #include<stdio.h>
 int main(){
     int num1 , num2 , compare ,match = 0, notmatch = 0 , len1 = 0 , len2 = 0;

@@ -1,3 +1,4 @@
+// 1) Write a C program to sort an array of 20 integers
 #include<stdio.h>
 int main(){
     int num, temp = 0 , temp2 = 0;
