@@ -1,3 +1,4 @@
+// 2)
 #include<stdio.h>
 int main(){
     int num,cnt = 0;
