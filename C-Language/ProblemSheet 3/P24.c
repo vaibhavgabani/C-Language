@@ -16,6 +16,7 @@ int main() {
         printf("Enter value for [%d] position: ", i + 1);
         scanf("%d", &arr1[i]);
     }
+    
     printf("Enter values for second array: \n");
     for (int i = 0; i < num2; i++) {
         printf("Enter value for [%d] position: ", i + 1);
