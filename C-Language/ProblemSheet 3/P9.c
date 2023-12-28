@@ -1,4 +1,4 @@
-// 9) Write a C program to copy one string into another string without using inbuilt functions.
+// /9) Write a C program to copy one string into another string without using inbuilt functions.
 // Enter size of first array :3
 // Enter value in string : ABC
 // copy string is : ABC
