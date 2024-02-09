@@ -4,18 +4,6 @@
  *  Created on: 01-Feb-2024
  *      Author: root
  */
-/*
- * P13.c
- *
- *  Created on: 01-Feb-2024
- *      Author: root
- */
-/*
- * P11.c
- *
- *  Created on: 31-Jan-2024
- *      Author: root
- */
 #include<stdio.h>
 void input(int m,int n,int arr[m][n]);
 void output(int m,int n ,int arr[m][n]);

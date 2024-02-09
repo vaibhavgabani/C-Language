@@ -4,12 +4,6 @@
  *  Created on: 01-Feb-2024
  *      Author: root
  */
-/*
- * P18.c
- *
- *  Created on: 01-Feb-2024
- *      Author: root
- */
 #include<stdio.h>
 void fibonachi(int);
 int main(){
