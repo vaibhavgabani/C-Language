@@ -113,7 +113,9 @@ void grade(struct hotel h[], int size) {
     	printf("|Hotel Name\t\t|Hotel Address\t\t\t|Grade\t\t|Charges\t|\n");
     	printf("-----------------------------------------------------------------------------------------\n");
     	for (int i = 0; i < size; i++) {
+            if (c == h[i].grade) {
     		printf("|%s\t\t\t|%s\t\t\t\t|%c\t\t|%d\t\t|\n", h[i].name, h[i].address, h[i].grade, h[i].charge);
+            }
     	  }
     	printf("-----------------------------------------------------------------------------------------\n");
     }
@@ -139,7 +141,7 @@ void charge(struct hotel h[], int size) {
     int cnt = 0;
     printf("Hotels with charges less than or equal to %d:\n", charge);
     for (int i = 0; i < size; i++) {
-        if (h[i].charge <= charge) {
+        if (charge <= h[i].charge) {
             cnt = 1;
         }
     }
@@ -150,8 +152,10 @@ void charge(struct hotel h[], int size) {
     	 printf("|Hotel Name\t\t|Hotel Address\t\t\t|Grade\t\t|Charges\t|Total Room\t|\n");
     	 printf("---------------------------------------------------------------------------------------------------------\n");
     	 for (int i = 0; i < size; i++) {
+            if (h[i].charge <= charge) {
     	         print(h[i]);
     	         cnt = 1;
+            }    
     	 }
     	 printf("---------------------------------------------------------------------------------------------------------\n");
     }
