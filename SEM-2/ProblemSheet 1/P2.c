@@ -1,12 +1,4 @@
 /*
- * dum.c
- *
- *  Created on: 08-Feb-2024
- *      Author: root
- */
-
-
-/*
  * P2.c
  *
  *  Created on: 02-Feb-2024
