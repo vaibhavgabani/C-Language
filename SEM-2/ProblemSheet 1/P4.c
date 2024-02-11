@@ -70,34 +70,48 @@ int main() {
             case 3:
                 printf("Enter Author Name :");
                 scanf("%s",str);
-                looktitle();
                 for(int i = 0 ; i < size ; i++){
                     if(strcmp(l[i].author,str) == 0){
-                        print(l[i]);
                         cnt = 1;
                     }
                 }
-                lookend();
-                if(cnt = 0){
+                if(cnt == 0){
                     printf("No book found of %s Author.\n",str);
+                } else {
+                    looktitle();
+                    for(int i = 0 ; i < size ; i++){
+                        if(strcmp(l[i].author,str) == 0){
+                            print(l[i]);
+                            cnt = 1;
+                        }
+                    }
+                lookend();
                 }
+                cnt = 0;
                 break;
 
             // specified book
             case 4:
                 printf("Enter Book name : ");
                 scanf(" %[^\n]s",str);
-                looktitle();
                 for(int i = 0 ; i < size ; i++){
                     if(strcmp(l[i].title,str) == 0){
-                        print(l[i]);
                         cnt = 1;
                     }
                 }
-                lookend();
-                if(cnt = 0){
+                if(cnt == 0){
                     printf("No book found of %s Author.\n",str);
+                } else {
+                    looktitle();
+                    for(int i = 0 ; i < size ; i++){
+                        if(strcmp(l[i].title,str) == 0){
+                            print(l[i]);
+                            cnt = 1;
+                        }
+                    }
+                    lookend();
                 }
+                cnt = 0;
                 break;
 
             // no of book
