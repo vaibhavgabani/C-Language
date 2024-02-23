@@ -13,6 +13,6 @@ int main(){
     }
     printf("\n");
     printf("%s\n",str);
-    printf("%c\n",*p2);  // we can direact acess whole
+    printf("%c\n",*p2);  // we can direact acess character
     return 0;
 }

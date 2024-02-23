@@ -9,7 +9,7 @@ int main(){
     p = &arr[0][0];
     //input
      for(int i = 0 ; i < 3 ; i++){
-         printf("%d ",*(p+i));
+        printf("%d ",*(p+i));
      }
      //print
     for(int i = 0 ; i < 3 ; i++){
@@ -17,11 +17,5 @@ int main(){
             printf("arr[%d] address = %u value = %d \n",i,&arr[i][j],arr[i][j]);
         }
     }
-    // for(int i = 0 ; i < 3 ; i++){
-    //     for(int j = 0 ; j < 3 ; j++){
-    //         printf("%d ",arr[i][j]);
-    //     }
-    //     printf("\n");
-    // }
     return 0;
 }

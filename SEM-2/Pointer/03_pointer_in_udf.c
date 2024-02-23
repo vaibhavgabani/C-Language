@@ -10,7 +10,7 @@ int main(){
 	printf("Enter B :");
 	scanf("%d",&b);
 
-	int (*p)(int , int);
+	int (*p)(int , int); //  it is function pointer use access UDF function 
 	p = sum;
 	z = (*p)(a,b);
 	printf("%d ",z);

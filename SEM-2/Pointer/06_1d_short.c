@@ -20,7 +20,7 @@ int main(){
 void input_1d_ptr(int *ptr,int n){
 	for(int i = 0 ; i < n ; i++){
 			printf("Enter at %d : ",i+1);
-			scanf("%d",&*(ptr+i));    // both 3 are work same (&*ptr+i),&*ptr+i,&*(ptr+i)
+			scanf("%d",&*(ptr+i));    // both 2 are work same ptr+i,&*(ptr+i)
 	}
 	return;
 }

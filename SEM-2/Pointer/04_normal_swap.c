@@ -8,7 +8,7 @@ int main(){
     printf("a = %d , b = %d\n",a,b);
     return 0;
 }
-void swap(int *a,int *b){
+void swap(int *a,int *b){  // pass by references
     int temp = *a;
     *a = *b;
     *b = temp;
