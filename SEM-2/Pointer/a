@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+#define MAX_SIZE 5
+
+// Define a structure
+struct ArrayStruct {
+    int arr[MAX_SIZE];
+    int size;
+};
+
+int main() {
+    // Declare a structure variable
+    struct ArrayStruct myStruct;
+
+    // Initialize the size of the array
+    myStruct.size = MAX_SIZE;
+
+    // Initialize the elements of the array
+    printf("Enter %d elements:\n", MAX_SIZE);
+    for (int i = 0; i < MAX_SIZE; ++i) {
+        scanf("%d", &myStruct.arr[i]);
+    }
+
+    // Display the elements of the array
+    printf("Elements of the array within the structure:\n");
+    for (int i = 0; i < myStruct.size; ++i) {
+        printf("%d ", myStruct.arr[i]);
+    }
+    printf("\n");
+
+    return 0;
+}
