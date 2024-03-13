@@ -3,14 +3,16 @@
 #include <stdlib.h>
 int main() {
     // Write C code here
-    int i = 0;
-    int *ptr = (int*) calloc (3 , sizeof(int));
+    int n;
+    printf("Enter size of array :");
+    scanf("%d",&n);
+    int *ptr = (int*) calloc (n , sizeof(int));
     
-    for(int i = 0 ; i < 3 ; i++){
+    for(int i = 0 ; i < n ; i++){
         printf("%d : ",i);
         scanf("%d",&*(ptr+i));
     }
-    for(int i = 0 ; i < 3 ; i++){
+    for(int i = 0 ; i < n ; i++){
         printf("%d ",*(ptr+i));
     }
     free(ptr);
