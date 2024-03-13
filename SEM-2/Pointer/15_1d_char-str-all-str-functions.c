@@ -43,7 +43,7 @@ void xstrcat(char *ptr1, char *ptr2){
 }
 int xstrcmp(char *ptr1 , char *ptr2){
 	int flag = 0;
-	while(*ptr1 !='\0' && *ptr2 != '\0'){
+	while(*ptr1 !='\0' || *ptr2 != '\0'){
 		if(*ptr1 == *ptr2){
 			flag = 0;
 		} else {
