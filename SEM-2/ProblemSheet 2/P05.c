@@ -11,7 +11,7 @@ int main(){
 	if(cnt == 0){
 		printf("Enter string are same.\n");
 	} else {
-		printf("Enter string are not same.\n");
+		printf("Enter string are not %d are not same.\n",cnt);
 	}
 	return 0;
 }
