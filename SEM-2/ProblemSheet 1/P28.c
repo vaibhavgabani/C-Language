@@ -6,11 +6,10 @@
  */
 #include<stdio.h>
 int multiply(int x,int y){
-	int product=0;
-	if(y>0){
-		return product=x+multiply(x,y-1);
-	} else {
+	if(y<=0){
 		return 0;
+	} else {
+		return x + multiply(x, y - 1);;
 	}
 }
 void main(){

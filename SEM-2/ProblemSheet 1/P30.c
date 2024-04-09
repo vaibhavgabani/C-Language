@@ -18,11 +18,9 @@ int main(){
     return 0;
 }
 int power(int n , int m){
-    static int p;
-    p = n;
-    int cnt = 1;
-    if(cnt <= m){
-        return p*power(n,m-1);;
-        cnt++;
+    if(m <= 0){
+        return 1;
+    } else {
+        return n * power(n, m - 1);
     }
 }
