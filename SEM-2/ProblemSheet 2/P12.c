@@ -1,6 +1,6 @@
 #include<stdio.h>
 int xstrlen(char *);
-int xstrrev(char *);
+void xstrrev(char *);
 
 int main(){
 //	int cnt;
@@ -20,8 +20,8 @@ int xstrlen(char *ptr){
 	}
 	return cnt;
 }
-int xstrrev(char *ptr){
-	int flag = 0 , l;
+void xstrrev(char *ptr){
+	int  l;
 	char *start , *end;
 	start = ptr;
 	end = ptr;
@@ -34,6 +34,5 @@ int xstrrev(char *ptr){
 		start++;
 		end--;
 	}
-	return flag;
+	return;
 }
-
