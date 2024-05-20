@@ -76,7 +76,7 @@ int main() {
     printf("transpose of First matrix : \n");
     trans(&arr1[0][0], m1, n1);
     printf("transpose of Second matrix : \n");
-    trans(&arr2[0][0], m1, n1);
+    trans(&arr2[0][0], m2, n2);
     return 0;
 }
 
